@@ -1,7 +1,7 @@
 /** 
-  Selection sort.
+  Selection sort. - Ascending Version
   Time Complexity - O(n²)
-  Demo - http://jsbin.com/sijomux/edit?js,console
+  Demo - https://jsbin.com/sijomux/edit?js,console
 */
 
 function selectionSort(unsorted) {
@@ -23,9 +23,8 @@ function selectionSort(unsorted) {
   let current = 0;
   while (current <= secondLast) {
     let smallestIndex = current;
-
     for (var i = current + 1; i <= last; i++) {
-      if (arr[smallestIndex] > arr[i]) {
+      if (arr[i] < arr[smallestIndex]) {
         smallestIndex = i;
       }
     }
@@ -35,9 +34,9 @@ function selectionSort(unsorted) {
      * than smallest value, swap them
      */
     if (smallestIndex !== current) {
-      let smallestVal = arr[smallestIndex];
+      let temp = arr[smallestIndex];
       arr[smallestIndex] = arr[current];
-      arr[current] = smallestVal;
+      arr[current] = temp;
     }
 
     current++;

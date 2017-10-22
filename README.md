@@ -2,9 +2,11 @@
 > Learning and implementing data structures and algorithms in javascript
 
 ## Sorting
-* Selection Sort - 
-  [(Source)](sorting/SelectionSort.js) -
-  [(Demo)](http://jsbin.com/sijomux/edit?js,console)
+* Selection Sort
+  *  [(Ascending)](sorting/SelectionSort-Ascending.js) -
+  [(Demo)](https://jsbin.com/sijomux/edit?js,console)
+  * [(Descending)](sorting/SelectionSort-Descending.js) -
+  [(Demo)](https://jsbin.com/lujoze/edit?js,console)
 * Bubble Sort - 
   [(Source)]() -
   [(Demo)]()
