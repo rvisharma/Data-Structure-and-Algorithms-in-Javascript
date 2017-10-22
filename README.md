@@ -3,7 +3,7 @@
 
 ## Sorting
 * Selection Sort - 
-  [(Source)](source) -
+  [(Source)](sorting/SelectionSort.js) -
   [(Demo)](http://jsbin.com/sijomux/edit?js,console)
 * Bubble Sort - 
   [(Source)]() -
