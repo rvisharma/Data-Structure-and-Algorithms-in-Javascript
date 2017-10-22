@@ -14,6 +14,12 @@ function selectionSort(unsorted) {
   const last = arr.length - 1;
   const secondLast = last - 1;
 
+  /**
+   * Iteration over unsorted list n - 2 times
+   * in each iteration, find the smallest value index and
+   * at the end of each iteration, swap the current index
+   * with the smallest value index.
+   */
   let current = 0;
   while (current <= secondLast) {
     let smallestIndex = current;
@@ -24,6 +30,10 @@ function selectionSort(unsorted) {
       }
     }
 
+    /**
+     * if the first element at unsorted subarray is different
+     * than smallest value, swap them
+     */
     if (smallestIndex !== current) {
       let smallestVal = arr[smallestIndex];
       arr[smallestIndex] = arr[current];
