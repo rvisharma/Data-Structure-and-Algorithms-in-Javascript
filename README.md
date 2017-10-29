@@ -8,8 +8,8 @@
   * [(Descending)](sorting/SelectionSort-Descending.js) -
   [(Demo)](https://jsbin.com/lujoze/edit?js,console)
 * Bubble Sort - 
-  [(Source)]() -
-  [(Demo)]()
+  [(Source)](sorting/BubbleSort-Ascending.js) -
+  [(Demo)](http://jsbin.com/xisegob/edit?js,console)
 * Insertion Sort - 
   [(Source)]() -
   [(Demo)]()
